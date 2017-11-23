@@ -1,0 +1,17 @@
+	<!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN 2.0//EN"
+			"http://www.springframework.org/dtd/spring-beans-2.0.dtd">
+
+<beans>
+	<bean
+		class="org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor"></bean>
+
+	<bean id="e" class="com.krishna.Engine">
+		<property name="modelyear" value="April"></property>
+	</bean>
+	<bean id="e1" class="com.krishna.Engine">
+		<property name="modelyear" value="May"></property>
+	</bean>
+	<bean id="c" class="com.krishna.Car">
+	</bean>
+
+</beans>
